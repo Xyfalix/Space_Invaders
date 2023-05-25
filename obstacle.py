@@ -7,7 +7,7 @@ class Obstacle(pygame.sprite.Sprite):
         super().__init__()
         self.block_size = 10
         self.image = pygame.Surface((self.block_size, self.block_size))  # Set the size of an individual block
-        self.image.fill('pink')  # Set the color of the block
+        self.image.fill('purple')  # Set the color of the block
         self.rect = self.image.get_rect(topleft=(x_pos, y_pos))
 
     shape = [
